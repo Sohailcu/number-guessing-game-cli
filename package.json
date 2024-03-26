@@ -1,9 +1,13 @@
 {
-  "name": "number-guessing-game-cli",
+  "name": "@sohailcu/number-guessing-game-cli",
   "version": "1.0.0",
   "description": "This is Number Guessing Game based it Cli",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+      "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
